@@ -1,0 +1,348 @@
+/* THIS IS THE TITLE EDITING Section */
+
+
+
+html{
+  scroll-behavior: smooth;
+}
+p{
+  font-family: 'Quicksand', sans-serif;
+}
+h4{
+  font-family: 'Quicksand', sans-serif;
+  color: #48466d;
+}
+h1
+{
+  font-family: 'Righteous', cursive;
+}
+#particles-js{
+  position: absolute;
+    width: 100%;
+    height: 45rem;
+    background-image: url(https://images.unsplash.com/photo-1548092372-0d1bd40894a3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    background-size: cover;
+    background-attachment: fixed;
+
+
+    z-index: -1;
+  }
+
+.btn-outline-success{
+  color: #30e3ca;
+  border-color: #30e3ca;
+  border-radius: 0;
+}
+#nav{
+  background-color: #11999e;
+  padding: 0.5rem 0;
+  font-size: 1.3rem;
+}
+.nav-item{
+  color: black;
+}
+.brand{
+    font-family: 'Orbitron', sans-serif;
+    color: black;
+    font-weight: 700;
+  }
+.title-h1{
+
+    padding-top: 15rem;
+    color: #30e3ca;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+}
+.title-h1-2{
+  font-size: 2rem;
+  text-align: center;
+  color:#eeeeee;
+  padding: 3rem 0 0;
+  font-family: 'Quicksand', sans-serif;
+}
+.title-p{
+  font-size: 2rem;
+  padding: 3rem 20rem ;
+  text-align: center;
+  color: #eeeeee;
+  font-size: 1.5rem;
+  font-family: 'Quicksand', sans-serif;
+}
+#title{
+  width: 100%;
+  height: 45rem;
+}
+.title-date{
+  text-align: center;
+  color:#eeeeee;
+  font-family: 'Playfair Display', serif;
+}
+.title-button{
+  text-align: center;
+  display: block;
+  margin: 3rem auto;
+
+
+}
+/* this is the about us editing section */
+#about{
+  background-color: #11999e;
+  padding-bottom: 30px;
+
+}
+.about-top{
+  padding: 3rem 5rem 13rem;
+  font-size: 4rem;
+  color: #303841;
+  font-family: 'Righteous', cursive;
+
+}
+.about-h1{
+  padding: 2rem 4rem;
+  color:#74f9ff;
+  font-family: 'Quicksand', sans-serif;
+}
+.about-p{
+  word-spacing: 9px;
+  padding: 0 4rem 4rem 4rem;
+  text-align: left;
+  font-size: 1.1rem;
+  color:  white;
+  font-family: 'Quicksand', sans-serif;
+}
+.about-row{
+  background-color: #303841;
+  border-radius: 10px;
+
+}
+
+.parallax-window {
+    min-height: 20rem;
+    background: transparent;
+
+}
+
+
+/* this is related to tracks section */
+
+
+#tracks{
+  padding: 6rem;
+  background-color: #c9d6df;
+
+}
+.tracks-fh{
+  color: #393e46;
+  padding: 3rem 0;
+  font-size: 5rem;
+  font-family: 'Righteous', cursive;
+}
+.tracks-sh{
+  text-align: center;
+  padding: 10rem 5rem 3rem;
+  font-family: 'Quicksand', sans-serif;
+}
+.tracks-icon{
+  cursor: pointer;
+  text-align:center;
+
+}
+.tracks-icon:hover{
+  background-color: #3ec1d3;
+  z-index: 1;
+  border-radius: 20px;
+}
+.learn-more{
+  display: none;
+}
+.modal-body{
+  background-color: #393e46;
+  color: white;
+  word-spacing: 9px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2rem;
+  padding: 4rem;
+
+}
+.modal-header{
+  background-color: #3ec1d3;
+  border: 0;
+  padding: 2rem 2rem 2rem;
+  position: relative;
+}
+.modal-title{
+  font-size: 2rem;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 900;
+}
+
+
+
+
+/* this is the faq section */
+#faq{
+  background-color: #11999e;
+  margin: 0;
+
+}
+
+.faq-h2{
+  padding: 9rem 3rem 5rem;
+  color: #393e46;
+  font-family: 'Righteous', cursive;
+  font-size:3rem;
+}
+.faq-row{
+  padding: 0 3rem 5rem;
+  }
+details{
+  padding: 0.3rem 0;
+  background-image: linear-gradient(to right, rgba(0, 210, 255,1),  rgba(0, 210, 255,0.3));
+  margin: 10px 0;
+  border-radius: 10px;
+  color: #393e46;
+  font-family: 'Playfair Display', serif;
+}
+summary{
+  padding: 5px 0 5px 10px;
+}
+.faq-h4{
+  padding: 0.6rem 2rem 0.6rem;
+  color: #393e46;
+  background-color: #393e46;
+  border-radius: 20px;
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  background-image:  linear-gradient(to right, rgba(0, 210, 255,1),  rgba(0, 210, 255,0.3));
+
+}
+.professor-info{
+  padding: 0 0 5rem;
+
+
+}
+.carousel-item{
+  width: 30%;
+}
+
+.d-block{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+
+  }
+.carousel-inner{
+  padding: 0 10rem;
+}
+.carousel-control-prev{
+  background-color: brown;
+}
+.carousel-control-next{
+  background-color: brown;
+}
+#itinary{
+  background-color: rgba(17, 153, 158, 1);
+
+}
+#prizes{
+background-color: rgba(17, 153, 158, 0.8);
+
+}
+.more-button{
+  text-align: right;
+}
+.prizes-h1{
+  font-family: 'Righteous', cursive;
+  color:#393e46;
+}
+h2{
+  font-family: 'Playfair Display', serif;
+
+}
+.contact{
+  text-align: center;
+  color:#393e46;
+}
+.message{
+  margin: 0 10rem;
+
+}
+.itinary-info{
+  margin: 5rem 18rem;
+  border-radius: 20px;
+  padding: 5rem;
+  background-color: #393e46;
+  color: white;
+
+}
+.button{
+text-align: center;
+padding: 3rem 0;
+}
+.phoneno,.email,.fas{
+  color: #393e46;
+}
+.fas{
+  font-size: 2.5rem;
+}
+.contact-us{
+  padding: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:600px){
+  #title{
+    background-image: url(images/coding1.jpg);
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+    .title-h1{
+
+      padding: 10rem 2rem 2rem;
+
+      color: #08d9d6;
+      text-align: center;
+      font-size: 2rem;
+
+  }
+  .title-p{
+    padding: 3rem 2rem ;
+    text-align: center;
+    color: white;
+    font-size: 1.1rem;
+  }
+  .title-date{
+    text-align: center;
+    color:white;
+}
+.tracks-sh{
+  text-align: center;
+  padding: 10rem 0 3rem;
+  font-family: 'Quicksand', sans-serif;
+}
+.about-top{
+  font-size: 4rem;
+  padding: 3rem 0;
+  margin-left: 0;
+}
+.itinary-info{
+  margin: 5rem 0;
+  border-radius: 20px;
+  padding: 5rem;
+  background-color: #393e46;
+  color: white;
+}
+.message{
+  margin: 0 16px;
